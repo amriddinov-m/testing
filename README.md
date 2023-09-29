@@ -16,20 +16,21 @@
    
 2. Создайте и активируйте виртуальное окружение:
   python -m venv venv
+
   source venv/bin/activate  # для Linux/macOS
 
-3. Установите зависимости:
+4. Установите зависимости:
   pip install -r requirements.txt
 
-4. Создайте PosgtesSql базу и создайте файл .env и укажите данные(DB_USER, DB_NAME, DB_PASS)
+5. Создайте PosgtesSql базу и создайте файл .env и укажите данные(DB_USER, DB_NAME, DB_PASS)
 
-5. Примените миграции:
+6. Примените миграции:
   python manage.py migrate
 
-6. Генерация данных:
+7. Генерация данных:
   python manage.py generic_data
 
-7. Запустите сервер:
+8. Запустите сервер:
   python manage.py runserver
   
-8. Откройте приложение в вашем веб-браузере по адресу http://localhost:8000/
+9. Откройте приложение в вашем веб-браузере по адресу http://localhost:8000/
