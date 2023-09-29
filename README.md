@@ -16,7 +16,7 @@
    
 2. Создайте и активируйте виртуальное окружение:
   python -m venv venv
-
+  
   source venv/bin/activate  # для Linux/macOS
 
 4. Установите зависимости:
