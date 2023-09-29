@@ -15,7 +15,8 @@
    git clone https://github.com/amriddinov-m/traffic_light.git
    
 2. Создайте и активируйте виртуальное окружение:
-   python -m venv venv
+   
+   python -m venv venv  # для Windows
   
    source venv/bin/activate  # для Linux/macOS
 
